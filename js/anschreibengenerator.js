@@ -21,7 +21,7 @@ async function generateImageSection() {
 
 		result = result.concat([
 			{
-				text: 'Anlage ' + imgInput.files[i].name + ' zur Anzeige betreffend '+ document.getElementById('owiKennz').value,
+				text: 'Anlage ' + imgInput.files[i].name + ' ('+ (i+1) +' von ' + imgInput.files['length'] +') zur Anzeige betreffend '+ document.getElementById('owiKennz').value,
 				margin: [20,5],
 				fontSize: 12,
 				pageBreak: 'before',
@@ -134,7 +134,7 @@ async function generatePDF() {
 			},
 			{
 				fontSize: 10,
-				text: 'Bitte berücksichtigen Sie außerdem die beigefügten Ablichtungen zur Beurteilung des Sachverhalts. Digitale Kopien in höherer Auflösung können bei Bedarf bereitgestellt werden.\n\n'
+				text: 'Bitte berücksichtigen Sie außerdem die beigefügten Ablichtungen (Anzahl: '+ imgInput.files['length'] +') zur Beurteilung des Sachverhalts. Digitale Kopien in höherer Auflösung können bei Bedarf bereitgestellt werden.\n\n'
 			},
 			{
 				fontSize: 10,
