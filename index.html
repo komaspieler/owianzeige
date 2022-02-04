@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Anschreibengenerator Verkehrsordnungswidrigkeit Magdeburg</title>
+    <title>Anschreibengenerator Verkehrsordnungswidrigkeit</title>
 
     <script src='js/pdfmake.min.js'></script>
     <script src='js/vfs_fonts.js'></script>
@@ -39,7 +39,7 @@
       <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
       <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
     </svg>
-    <span class="fs-4">Anschreibengenerator Verkehrsordnungswidrigkeit Magdeburg</span>
+    <span class="fs-4">Anschreibengenerator Verkehrsordnungswidrigkeit</span>
   </header>
 
   <main>
@@ -54,7 +54,7 @@
 
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Mit dieser Seite möchte ich dir dabei zu helfen, eine (Verkehrs-)Ordnungswidrigkeit beim <b>Ordnungsamt Magdeburg</b> anzuzeigen. Etwas weiter unten findest du ein Formular. Füllst du dieses aus und klickst auf den Button "Anschreiben generieren", wird eine PDF-Datei generiert, die du ausdrucken und per Post an das Ordnungsamt Magdeburg schicken kannst. Alternativ kannst du den Brief natürlich auch vor Ort am Bürgerbüro West in den Briefkasten werfen.</p>
+            <p>Mit dieser Seite möchte ich dir dabei zu helfen, eine (Verkehrs-)Ordnungswidrigkeit bei einem <b>Ordnungsamt</b> anzuzeigen. Etwas weiter unten findest du ein Formular. Füllst du dieses aus und klickst auf den Button "Anschreiben generieren", wird eine PDF-Datei generiert, die du ausdrucken und per Post an das angegebene Ordnungsamt schicken kannst. Alternativ kannst du den Brief natürlich auch vor Ort in einem Bürgeramt in den Briefkasten werfen.</p>
 
             <p>Ein paar häufige, weitere Fragen findest du weiter unten. Einfach auf eine Frage klicken um die Antwort zu sehen.</p>
           </div>
@@ -70,7 +70,7 @@
 
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Das Ordnungsamt Magdeburg nimmt leider auf Grund von Datenschutzbedenken keine Anzeigen per E-Mail oder Fax entgegen. Die einzigen offiziell geduldeten Arten, eine Ordnungswidrigkeitsanzeige zu erstatten sind schriftlich oder persönlich bei einem/r SachbearbeiterIn des Ordnungsamtes.
+            Manche Ordnungsämter nehmen leider auf Grund von Datenschutzbedenken keine Anzeigen per E-Mail oder Fax entgegen. In diesen Fällen sind die einzigen offiziell geduldeten Arten, eine Ordnungswidrigkeitsanzeige zu erstatten, schriftlich oder persönlich bei einem/r SachbearbeiterIn des Ordnungsamtes.
           </div>
         </div>
       </div>
@@ -132,13 +132,27 @@
         </div>
 
         <div class="row">
+          <p><b>Angaben zum Ordnungsamt</b></p>
+        </div>
+        <select class="form-select mb-3" id="owiOrdnungsaemterSelect" onchange="onSelectOrdnungsamt(this)">
+          <option selected>Ordnungsamt auswählen</option>
+        </select>
+        <div class="form-floating mb-3">
+          <textarea id="owiAdresseOrdnungsamt" class="form-control" style="height: 120px;">Ordnungsamt Magdeburg
+Bußgeldabteilung
+Bruno-Beye-Ring 50 (BB)
+39130 Magdeburg</textarea>
+          <label for="owiDatum">Ordnungsamt</label>
+        </div>
+        
+        <div class="row">
           <p><b>Angaben zur Ordnungswidrigkeit</b></p>
         </div>
         <div class="form-floating mb-3">
           <input type="date" class="form-control" id="owiDatum">
           <label for="owiDatum">Tattag</label>
         </div>
-        
+
         <div class="form-floating mb-3">
           <input type="text" class="form-control" id="owiZeit">
           <label for="owiZeit">Tatzeit (am besten als von-bis Angabe)</label>
@@ -174,6 +188,11 @@
     </div>
   </main>
   <footer class="pt-5 my-5 text-muted border-top">
+    <p><b>Credits</b></p>
+    <p class="small">
+      Anschriften von Ordnungsämtern: <a href="https://fragdenstaat.de" target="_blank">fragdenstaat.de</a>
+    </p>
+
     <p><b>Disclaimer und Impressum</b></p>
     <p class="small">
       Die kostenlosen und frei zugänglichen Inhalte dieser Webseite wurden mit größtmöglicher Sorgfalt erstellt. Der Anbieter dieser Webseite übernimmt jedoch keine Gewähr für die Richtigkeit und Aktualität der bereitgestellten kostenlosen und frei zugänglichen Inhalte. Allein durch den Aufruf der kostenlosen und frei zugänglichen Inhalte kommt keinerlei Vertragsverhältnis zwischen dem Nutzer und dem Anbieter zustande, insoweit fehlt es am Rechtsbindungswillen des Anbieters.
@@ -189,6 +208,7 @@
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/ordnungsaemter.js"></script>
 
       
   </body>

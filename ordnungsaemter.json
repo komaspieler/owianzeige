@@ -1,0 +1,267 @@
+[
+  {
+    "id": 5641,
+    "name": "Allgemeine Sicherheit und Ordnung - Schmelz",
+    "address": "Rathausplatz 1\n66839 Schmelz"
+  },
+  {
+    "id": 49147,
+    "name": "Amt für öffentliche Ordnung Reutlingen",
+    "address": "Oskar-Kalbfell-Platz 21\r\n72764 Reutlingen"
+  },
+  {
+    "id": 20193,
+    "name": "Amt für regionalisierte Ordnungsaufgaben (Lichtenberg)",
+    "address": "Alt-Friedrichsfelde 60\r\n10315 Berlin"
+  },
+  {
+    "id": 7349,
+    "name": "Bürgerservice und Ordnungsamt - Gewerbeangelegenheiten",
+    "address": "Bei der Hauptwache 4 , 39104 Magdeburg, Landeshauptstadt"
+  },
+  {
+    "id": 15608,
+    "name": "Bürger- und Ordnungsamt Duisburg",
+    "address": "Königstraße 63-65\r\n47051 Duisburg"
+  },
+  {
+    "id": 16217,
+    "name": "Bürger- und Ordnungsamt, Sachbereich Bußgeldstelle, Verkehrsüberwachung",
+    "address": "Fabrikstraße  8-10\r\n24103 Kiel"
+  },
+  {
+    "id": 7361,
+    "name": "Dessau-Rosslau - Amt für öffentliche Sicherheit und Ordnung",
+    "address": "August-Bebel-Platz 16 , 06842 Dessau-Roßlau"
+  },
+  {
+    "id": 6654,
+    "name": "Gewerbeangelegenheiten und Öffentliche Ordnung Bremen",
+    "address": "Stresemannstraße 48\r\n28207 Bremen"
+  },
+  {
+    "id": 16511,
+    "name": "Haupt- und Ordnungsamt Köngen",
+    "address": "Stöffler-Platz 1\r\n73257 Köngen"
+  },
+  {
+    "id": 5467,
+    "name": "Kommunaler Ordnungsdienst - Nalbach",
+    "address": "Postfach 11 60\n66807 Nalbach"
+  },
+  {
+    "id": 3897,
+    "name": "Landesamt für Bürger- und Ordnungsangelegenheiten",
+    "address": ""
+  },
+  {
+    "id": 8986,
+    "name": "Ordnung, Gewerbe, StraßenverkehrStadt Waldkirch Stadt Waldkirch",
+    "address": "Marktplatz 1-5\n79183 Waldkirch"
+  },
+  {
+    "id": 7785,
+    "name": "Ordnungsamt Aachen",
+    "address": "Verwaltungsgebäude am Marschiertor\r\nLagerhausstraße 20\r\n52064 Aachen"
+  },
+  {
+    "id": 18286,
+    "name": "Ordnungsamt Berlin Mitte",
+    "address": "Karl-Marx-Allee 31, 10178 Berlin"
+  },
+  {
+    "id": 17057,
+    "name": "Ordnungsamt Chemnitz",
+    "address": "09106 Chemnitz"
+  },
+  {
+    "id": 15968,
+    "name": "Ordnungsamt der Stadt Bielefeld",
+    "address": "Ravensberger Park 5\r\n33607 Bielefeld"
+  },
+  {
+    "id": 49255,
+    "name": "Ordnungsamt der Stadt Recklinghausen",
+    "address": "Ordnungsamt der Stadt Recklinghausen\r\nRathaus 3\r\n45657 Recklinghausen"
+  },
+  {
+    "id": 13630,
+    "name": "Ordnungsamt Friedrichshain-Kreuzberg",
+    "address": "Petersburger Straße 86-90\r\n10247 Berlin"
+  },
+  {
+    "id": 8988,
+    "name": "Ordnungsamt Gemeinde Rheinmünster",
+    "address": "Lindenbrunnenstr. 1\n77836 Rheinmünster"
+  },
+  {
+    "id": 7507,
+    "name": "Ordnungsamt Hohe Börde",
+    "address": "Bördestraße 8 , 39167 Hohe Börde"
+  },
+  {
+    "id": 7510,
+    "name": "Ordnungsamt, Kultur, Soziales Seegebiet Mansfelder Land",
+    "address": "Pfarrstraße 8 , 06317 Seegebiet Mansfelder Land - Röblingen am See"
+  },
+  {
+    "id": 7508,
+    "name": "Ordnungsamt Mansfeld Südharz",
+    "address": "Rudolf-Breitscheid-Straße 20/22 , 06526 Sangerhausen"
+  },
+  {
+    "id": 15448,
+    "name": "Ordnungsamt Marzahn-Hellersdorf",
+    "address": "Premnitzer Straße 11\r\n12681 Berlin"
+  },
+  {
+    "id": 14681,
+    "name": "Ordnungsamt Münster",
+    "address": "Stadt Münster\r\nOrdnungsamt\r\n48127 Münster"
+  },
+  {
+    "id": 15918,
+    "name": "Ordnungsamt Neukölln",
+    "address": "Bezirksamt Neukölln von Berlin\r\nOrdnungsamt\r\nJuliusstraße 67\r\n12051 Berlin"
+  },
+  {
+    "id": 7509,
+    "name": "Ordnungsamt Oberharzstadt",
+    "address": "Markt 1 - 2 , 38875 Oberharz am Brocken, Stadt - Elbingerode (Harz)"
+  },
+  {
+    "id": 6323,
+    "name": "Ordnungsamt - Saarbrücken",
+    "address": "Großherzog-Friedrich-Straße 111\r\nSt. Johann\r\n66121 Saarbrücken"
+  },
+  {
+    "id": 17196,
+    "name": "Ordnungsamt Schwelm",
+    "address": "Verwaltungsgebäude II\r\nMoltkestraße 24\r\n58332 Schwelm"
+  },
+  {
+    "id": 19160,
+    "name": "Ordnungsamt Stadt Düsseldorf",
+    "address": "Worringer Straße 111\r\nDüsseldorf"
+  },
+  {
+    "id": 49020,
+    "name": "Ordnungsamt Stadt Frankfurt am Main",
+    "address": "Kleyerstraße 86\r\n60326 Frankfurt am Main"
+  },
+  {
+    "id": 21356,
+    "name": "Ordnungsamt Stadt Kassel",
+    "address": "Kurt-Schumacher-Str. 29-31\r\n34117 Kassel"
+  },
+  {
+    "id": 18160,
+    "name": "Ordnungsamt Stadt Ravensburg",
+    "address": "Neues Rathaus\r\nSeestraße 9\r\n88214 Ravensburg"
+  },
+  {
+    "id": 8989,
+    "name": "Ordnungsamt Stadt Schriesheim",
+    "address": "Friedrichstraße 28-30\n69198 Schriesheim"
+  },
+  {
+    "id": 16442,
+    "name": "Ordnungsamt Tempelhof-Schöneberg",
+    "address": "Tempelhofer Damm 165\r\n12099 Berlin"
+  },
+  {
+    "id": 48859,
+    "name": "Ordnungsamt und Bürgerservice/Bußgeldstelle Magdeburg",
+    "address": "Bruno-Beye-Ring 50 (BB)\r\n39130 Magdeburg\r\n(BürgerBüro West)"
+  },
+  {
+    "id": 33202,
+    "name": "Ordnungsamt Wandlitz",
+    "address": "Prenzlauer Chaussee 157\r\n16348 Wandlitz"
+  },
+  {
+    "id": 5682,
+    "name": "Ordnungsaufgaben - St. Ingbert",
+    "address": "Postfach 19 60\n66369 St. Ingbert"
+  },
+  {
+    "id": 8987,
+    "name": "Ordnungs- und Standesamt Stadt Esslingen am Neckar",
+    "address": "Postfach 10 03 5573726 Esslingen am Neckar"
+  },
+  {
+    "id": 14702,
+    "name": "Ordnungs- und Verkehrsdienst der Stadt Köln",
+    "address": "Stadthaus Deutz - Ostgebäude\r\n    Willy-Brandt-Platz 3\r\n    50679 Köln\r\n    Postfach 10 35 64\r\n    50475 Köln"
+  },
+  {
+    "id": 5588,
+    "name": "Ordnungsverwaltung - Riegelsberg",
+    "address": "Postfach 11 43\n66288 Riegelsberg"
+  },
+  {
+    "id": 8990,
+    "name": "Orthopädische Versorgungsstelle",
+    "address": "79081 Freiburg im Breisgau"
+  },
+  {
+    "id": 8991,
+    "name": "Ortsbehörde Gemeinde Stimpfach",
+    "address": "Kirchstraße 22\n74597 Stimpfach"
+  },
+  {
+    "id": 8992,
+    "name": "Ortschaftsverwaltung Odenheim Stadt Östringen",
+    "address": "Nibelungenstr. 2 76684 Östringen - Odenheim"
+  },
+  {
+    "id": 7513,
+    "name": "Rechts- und Ordnungsamt - Stadt Haldensleben",
+    "address": "Markt 20-22 , 39340 Haldensleben"
+  },
+  {
+    "id": 19163,
+    "name": "SG Veranstaltungs- und Versammlungsbehörde Dresden",
+    "address": "Postfach 12 00 20\r\n01001 Dresden"
+  },
+  {
+    "id": 5410,
+    "name": "Sicherheit - Lebach",
+    "address": "Postfach 13 20\n66813 Lebach"
+  },
+  {
+    "id": 5633,
+    "name": "Sicherheit und Ordnung - Saarwellingen",
+    "address": "Schlossplatz 1\n66793 Saarwellingen"
+  },
+  {
+    "id": 5659,
+    "name": "Sicherheit und Ordnung - Schwalbach",
+    "address": "Postfach 1040\n66764 Schwalbach"
+  },
+  {
+    "id": 15473,
+    "name": "Stadt Bayreuth – Amt für öffentliche Ordnung, Brand- und Katastrophenschutz",
+    "address": "Postfach 101052\r\n95410 Bayreuth"
+  },
+  {
+    "id": 16943,
+    "name": "Stadt Düren - Amt für Recht und Ordnung",
+    "address": "Wirteltorplatz 7\r\n52349 Düren"
+  },
+  {
+    "id": 17072,
+    "name": "Stadt Halle (Saale) - Fachbereich Sicherheit",
+    "address": "Stadt Halle (Saale)\r\nFachbereich Sicherheit\r\n06100 Halle (Saale)"
+  },
+  {
+    "id": 7619,
+    "name": "Stadtordnungsdienst Ordnungsamt",
+    "address": "Bei der Hauptwache 4 , 39104 Magdeburg, Landeshauptstadt"
+  },
+  {
+    "id": 18239,
+    "name": "Stadtverwaltung der Landeshauptstadt Potsdam Fachbereich Ordnung und Sicherheit",
+    "address": "Friedrich-Ebert-Straße 79/81\r\n14469 Potsdam"
+  }
+]
