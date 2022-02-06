@@ -38,6 +38,7 @@ async function generateImageSection() {
 
 async function generatePDF() {
 	var now = new Date();
+	var oAmt = document.getElementById('owiAdresseOrdnungsamt').value;
 	var anzName = document.getElementById('anzName').value;
 	var anzStr = document.getElementById('anzStr').value;
 	var anzOrt = document.getElementById('anzOrt').value;
@@ -65,10 +66,7 @@ async function generatePDF() {
 					text: [
 						{text: anzName + ', ' + anzStr + ', ' + anzOrt + '\n\n', fontSize: 8},
 						'An das\n',
-						{text: 'Ordnungsamt Magdeburg\n', bold: true},
-						'Bußgeldabteilung\n',
-						'Bruno-Beye-Ring 50 (BB)\n',
-						'39130 Magdeburg',
+						oAmt
 					],
 					style: 'recipient'
 				}]
